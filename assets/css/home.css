@@ -1,0 +1,45 @@
+#home.section {
+    margin-top: 80px;
+    flex-direction: row;
+    background-color: black;
+}
+
+
+
+.caja-home {
+
+    border: 1px solid black;
+    background-color: white;
+    height: 50vh;
+    width: 45vw;
+    text-align: center;
+    margin: 5px;
+
+}
+
+.texto-home {
+    font-family: 'bungee', sans-serif;
+    font-size: clamp(1px, 1.66vw, 20px);
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+
+
+#titulo1 {
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+
+}
+
+#logosag.caja-home {
+    background-image: url("/assets/media/imagenes/logosag.svg");
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 58%;
+
+}

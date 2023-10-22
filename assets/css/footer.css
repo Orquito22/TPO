@@ -1,0 +1,39 @@
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilos para el enlace e icono */
+.instagram {
+    background-color: black;
+    font-size: 50px;
+    color: white;
+   
+}
+
+#icono-insta a.instagram {
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    
+}
+
+#icono-insta a.instagram:hover {
+    color: #E1306C;
+    
+}
+
+
+
+#footer-text {
+    color: white;
+}
+
+#nomb-footer {
+    font-family: russo one;
+    font-size: 30px;
+    font-weight: 200px;
+}

@@ -1,0 +1,47 @@
+
+form {
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    background-blend-mode: darken;
+    height: 30vh;
+    text-align: center;
+    align-items: center;
+
+}
+
+#titulo-contacto {
+    height: 20px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    font-family: russo one;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input_data {
+    border: transparent;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+}
+
+form button {
+
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+
+}
+
+form button.active,
+form button:hover {
+
+    background: #1b9bff;
+    transition: .5s;
+}

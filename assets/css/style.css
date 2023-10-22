@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Montserrat&family=Russo+One&display=swap');
+@import url('/assets/css/nav.css');
+@import url('/assets/css/home.css');
+@import url('/assets/css/nosotros.css');
+@import url('/assets/css/servicios.css');
+@import url('/assets/css/clientes.css');
+@import url('/assets/css/form.css');
+@import url('/assets/css/footer.css');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: content-box;
+
+}
+
+body {
+
+    background-color: black;
+    font-family: Montserrat;
+
+}
+
+.section {
+    display: flex;
+    border: 2px solid rgb(0, 255, 34);
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.caja {
+
+    /* border: 1px solid black; */
+    width: 97vw;
+    height: 70vh;
+    text-align: center;
+    margin: 5px;
+}

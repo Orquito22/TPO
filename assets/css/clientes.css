@@ -1,0 +1,76 @@
+
+#clientes.section {
+
+    background-size: 60%;
+    background-color:black;
+    background-position: Right;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 96vw;
+    top: 100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    background-color:transparent;
+    
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    
+    
+    
+}
+
+#clientes a:hover{
+    background-color: black;
+    
+}
+
+.slide:hover {
+    background-color: black;
+    outline: none;
+    transform: translateY(-10px) scale(0.9);
+}
+
+
+.slider .slider-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    width: calc(200px*34);
+    -webkit-animation: scroll 40s linear infinite;
+    overflow: visible;
+}
+
+.slider .slide {
+    width: 200px;
+    height: 200px;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-200px * 17));
+        -webkit-transform: translateX(calc(-200px * 17));
+    }
+
+}
