@@ -36,7 +36,7 @@
 }
 
 #logosag.caja-home {
-    background-image: url("/assets/media/imagenes/logosag.svg");
+    background-image: "assets/media/imagenes/logosag.svg";
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;

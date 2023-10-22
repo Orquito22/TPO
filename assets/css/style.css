@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Montserrat&family=Russo+One&display=swap');
-@import url('/assets/css/nav.css');
-@import url('/assets/css/home.css');
-@import url('/assets/css/nosotros.css');
-@import url('/assets/css/servicios.css');
-@import url('/assets/css/clientes.css');
-@import url('/assets/css/form.css');
-@import url('/assets/css/footer.css');
+@import "nav.css";
+@import "home.css";
+@import "nosotros.css";
+@import "servicios.css";
+@import "clientes.css";
+@import "form.css";
+@import "footer.css";
 
 
 * {
