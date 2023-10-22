@@ -1,6 +1,6 @@
 #nosotros.section {
     position: relative;
-    background-image: url("..\media\fondos\fondo1.svg");
+    background-image: url("../media/fondos/fondo1.svg");
     background-size: 75%;
     background-color: #F26D7E;
     background-position: left;
@@ -9,7 +9,7 @@
 }
 
 #nosotros.section.fondo-2 {
-    background-image: url("..\media\fondos\fondo2.svg");
+    background-image: url("../media/fondos/fondo2.svg");
     background-color: #B600E0;
 }
 
