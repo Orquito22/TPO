@@ -62,7 +62,27 @@ a:hover {
 
 
 /* PRIMER INTENTO DE RESPOSIVE PARA NAV */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+    nav {
+        background-color: black;
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+       
+    }
+    
+    
+    label.logo {
+        color: white;
+        font-family: russo one;
+        font-size: 50px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+
 
     .checkbtn {
         display: block;
@@ -70,8 +90,10 @@ a:hover {
 
     ul {
         position: fixed;
-        width: 30%;
-        height: 80vh;
+        box-sizing: border-box;
+        /* width: 30%;
+        height: 80vh; */
+        border-radius: 10%;
         background: #2c3e50;
         top: 80px;
         right: -70%;
@@ -82,13 +104,13 @@ a:hover {
 
     nav ul li {
         display: block;
-        margin: 50px 0;
+        margin: 30px 0;
         line-height: 30px;
     }
 
     nav ul li a {
         font-size: 20px;
-        ;
+        
     }
 
     a:hover,
