@@ -46,3 +46,109 @@
     background-color: #1b9bff;
    
 }
+
+@media (max-width: 1010px){
+
+    #nosotros.section {
+        height: 40vh;
+        position: relative;
+        background-image: url("../media/fondos/fondo1.svg");
+        background-size: 55%;
+        background-color: #F26D7E;
+        background-position: left;
+        background-repeat: no-repeat;
+        transition: background 0.5s ease;
+    }
+    
+    #nosotros.section.fondo-2 {
+        background-image: url("../media/fondos/fondo2.svg");
+        background-color: #B600E0;
+    }
+    
+    #cambiarFondo {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        border-radius: 10%;
+        width: 56px;
+        height: 48px;
+        text-align: center;
+        line-height: 10px;
+        text-decoration: none;
+        font-family: Montserrat;
+        margin-left: 10px;
+        font-weight: 1000;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    
+    }
+    
+    #magic {
+        position: absolute;
+        top: 50px;
+        right: 170px;
+        font-size: 40px;
+    }
+    
+    #cambiarFondo:hover {
+        background-color: #1b9bff;
+       
+    }
+}
+
+@media (max-width: 576px){
+
+    #nosotros.section {
+        height: 25vh;
+        position: relative;
+        background-image: url("../media/fondos/fondo1.svg");
+        background-size: 55%;
+        background-color: #F26D7E;
+        background-position: left;
+        background-repeat: no-repeat;
+        transition: background 0.5s ease;
+    }
+    
+    #nosotros.section.fondo-2 {
+        background-image: url("../media/fondos/fondo2.svg");
+        background-color: #B600E0;
+    }
+    
+    #cambiarFondo {
+        display: inline-block;
+        background-color: black;
+        color: #fff;
+        border-radius: 10%;
+        width: 40px;
+        height: 35px;
+        text-align: center;
+        line-height: 10px;
+        text-decoration: none;
+        font-family: Montserrat;
+        margin-left: 10px;
+        font-weight: 1000;
+        font-size: 8px;
+        cursor: pointer;
+        border: none;
+        position: absolute;
+        top: 50px;
+        right: 100px;
+    
+    }
+    
+    #magic {
+        position: absolute;
+        top: 50px;
+        right: 150px;
+        font-size: 30px;
+    }
+    
+    #cambiarFondo:hover {
+        background-color: #1b9bff;
+       
+    }
+}
