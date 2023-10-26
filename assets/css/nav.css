@@ -60,43 +60,99 @@ a:hover {
 }
 
 @media (max-width: 1366px) {
+    
 
+    
     .checkbtn {
         display: block;
     }
-
+    
     ul {
         position: fixed;
-        width: 15%;
-        height: 60%;
+        width: 25%; /* Puedes cambiar a porcentaje */
+        height: 30%; /* Puedes cambiar a porcentaje */
         background: #2c3e50;
         top: 80px;
-        right: -70%;
+        right: -70%; /* Puedes cambiar a porcentaje */
         text-align: center;
         transition: .9s;
         border-radius: 10%;
-
+        
     }
-
+    
     nav ul li {
+        width: 15%;
+        height: 10%;
+        
         display: block;
-        margin: 50px 0;
-        line-height: 30px;
+        margin: 8%; /* Puedes cambiar a porcentaje */
+        line-height: 1.5em; /* Puedes cambiar a porcentaje o em */
     }
-
+    
     nav ul li a {
-        font-size: 20px;
-        ;
+        text-align: center;
+        font-size: 1.5em; /* Puedes cambiar a porcentaje o em */
     }
-
+    
     a:hover,
     a.active {
         background: none;
         color: #0082e6;
     }
-
+    
     #check:checked~ul {
         right: 0;
     }
+    
+    
+    
 }
 
+@media (max-width: 768px) {
+    
+
+    
+    .checkbtn {
+        display: block;
+    }
+    
+    ul {
+        position: fixed;
+        width: 15%; /* Puedes cambiar a porcentaje */
+        height: 14%; /* Puedes cambiar a porcentaje */
+        background: #2c3e50;
+        top: 80px;
+        right: -70%; /* Puedes cambiar a porcentaje */
+        text-align: center;
+        transition: .9s;
+        border-radius: 10%;
+        
+    }
+    
+    nav ul li {
+        width: 9%;
+        height: 12%;
+        
+        display: block;
+        margin: 10%; /* Puedes cambiar a porcentaje */
+        line-height: 1.5em; /* Puedes cambiar a porcentaje o em */
+    }
+    
+    nav ul li a {
+        text-align: center;
+        font-size: 0.5em; /* Puedes cambiar a porcentaje o em */
+    }
+    
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    
+    #check:checked~ul {
+        right: 0;
+    }
+    
+    
+    
+}
