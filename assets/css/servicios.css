@@ -1,6 +1,6 @@
 #servicios.section {
 
-    background-size: 100%;
+
 
     background-color: black;
     background-position: left;
@@ -22,9 +22,9 @@
 
 .galeria {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     width: 95%;
-    height: 65vh;
+    height: 55vh;
     margin: auto;
     grid-gap: 10px;
     padding: 40px 0;
@@ -34,7 +34,7 @@
 .galeria img {
     width: 100%;
     vertical-align: top;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     transition: transform 0.5s;
 }
@@ -46,8 +46,12 @@
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
+a.gallery-link {
+    height: 300px;
+}
+
 .galeria a:hover img {
-    filter: blur(2px);
+
     transform: rotate(10deg) scale(1.3);
 }
 
@@ -124,64 +128,63 @@
     width: 70vw;
 }
 
-@media (max-width: 1010px){
- 
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        width: 95%;
-        height: 40vh;
-        margin: auto;
-        grid-gap: 10px;
-        padding: 40px 0;
-        overflow: hidden;
-    }
+@media (max-width: 1920px) {
 
     .galeria img {
-        width: 100%;
-        vertical-align: top;
-        height: 100px;
-        object-fit: cover;
-        transition: transform 0.5s;
+        height: 200px;
+
     }
 
-    #miniaturas{
-
-        height: 90%;
+    a.gallery-link {
+        height: 200px;
     }
-
-
-
 }
 
-@media (max-width: 576px){
- 
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        width: 95%;
-        height: 40vh;
-        margin: auto;
-        grid-gap: 10px;
-        padding: 40px 0;
-        overflow: hidden;
+@media (max-width: 1366px) {
+    #titulo-servicios {
         position: relative;
+        font-size: 20px;
+        top: 20px;
+        left: 50px;
+        max-width: 90vw;
     }
-
+    .galeria {
+     
+        height: 25vh;
+        
+    }
     .galeria img {
-        width: 100%;
-        vertical-align: top;
-        height: 10px;
-        object-fit: cover;
-        transition: transform 0.5s;
-        
+        height: 130px;
+
     }
 
-    #miniaturas img{
+    a.gallery-link {
+        height: 130px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #titulo-servicios {
+        position: relative;
+        font-family: russo one;
+        font-size: 15px;
+        color: white;
+        top: 10px;
+        left: 20px;
+        max-width: 90vw;
+    }
+    .galeria {
+        padding: 20px 0;
+        height: 15vh;
         
     }
+    .galeria img {
+        height: 50px;
 
+    }
 
-
-
+    a.gallery-link {
+        height: 50px;
+    }
 }

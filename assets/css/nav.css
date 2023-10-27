@@ -109,11 +109,33 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    nav {
+        background-color: black;
+        height: 40px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 100;
     
-
+    }
+    label.logo {
+        position:relative;
+        right: 15%;
+        color: white;
+        font-family: russo one;
+        font-size: 25px;
+        line-height: 40px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
     
     .checkbtn {
         display: block;
+        font-size: 25px;
+        color: white;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
     }
     
     ul {

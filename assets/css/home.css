@@ -35,7 +35,7 @@
     width: 70%;
     height: auto;
     border: none;
-    translate: X(-0%);
+    
 }
 
 
@@ -104,7 +104,11 @@
 }
 
 @media (max-width: 768px){
-   
+    #home.section {
+        margin-top: 40px;
+        flex-direction: row;
+        background-color: black;
+    }
     
     .caja-home {
         height: 15vh;
