@@ -1,4 +1,3 @@
-
 nav {
     background-color: black;
     height: 80px;
@@ -6,7 +5,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 100;
-   
+
 }
 
 label.logo {
@@ -49,6 +48,7 @@ a:hover {
 }
 
 .checkbtn {
+    display: none;
     font-size: 30px;
     color: white;
     float: right;
@@ -60,44 +60,167 @@ a:hover {
     display: none;
 }
 
+@media (max-width: 1200px) {
+    .checkbtn {
+        
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+    }
 
-/* PRIMER INTENTO DE RESPOSIVE PARA NAV */
-@media (max-width: 800px) {
-
+    
     .checkbtn {
         display: block;
     }
-
+    
     ul {
         position: fixed;
-        width: 30%;
-        height: 80vh;
+        width: 15vw; /* Puedes cambiar a porcentaje */
+        height: 42vh; /* Puedes cambiar a porcentaje */
         background: #2c3e50;
         top: 80px;
-        right: -70%;
+        right: -70%; /* Puedes cambiar a porcentaje */
         text-align: center;
         transition: .9s;
-
+        border-radius: 10%;
+        
     }
-
+    
     nav ul li {
+        
+       
         display: block;
-        margin: 50px 0;
-        line-height: 30px;
+        margin: 8%; /* Puedes cambiar a porcentaje */
+        line-height: 6vh; /* Puedes cambiar a porcentaje o em */
     }
-
+    
     nav ul li a {
-        font-size: 20px;
-        ;
+        text-align: center;
+        font-size: 1.8vw; /* Puedes cambiar a porcentaje o em */
     }
-
+    
     a:hover,
     a.active {
         background: none;
         color: #0082e6;
     }
-
+    
     #check:checked~ul {
         right: 0;
     }
+    
+    
+    
+}
+
+@media (max-width: 900px) {
+    
+
+    
+    .checkbtn {
+        display: block;
+    }
+    
+    ul {
+        position: fixed;
+        width: 15vw; /* Puedes cambiar a porcentaje */
+        height: 30vh; /* Puedes cambiar a porcentaje */
+        background: #2c3e50;
+        top: 80px;
+        right: -70%; /* Puedes cambiar a porcentaje */
+        text-align: center;
+        transition: .9s;
+        border-radius: 10%;
+        
+    }
+    
+    nav ul li {
+        
+       
+        display: block;
+        margin: 8%; /* Puedes cambiar a porcentaje */
+        line-height: 4vh; /* Puedes cambiar a porcentaje o em */
+    }
+    
+    nav ul li a {
+        text-align: center;
+        font-size: 1.8vw; /* Puedes cambiar a porcentaje o em */
+    }
+    
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    
+    #check:checked~ul {
+        right: 0;
+    }
+    
+    
+    
+}
+
+@media (max-width: 400px) {
+    nav {
+        height: 40px;
+    }
+    label.logo {
+        
+        font-size: 25px;
+        line-height: 40px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    
+    .checkbtn {
+        display: block;
+    }
+    
+    ul {
+        position: fixed;
+        width: 20vw; /* Puedes cambiar a porcentaje */
+        height: 18vh; /* Puedes cambiar a porcentaje */
+        background: #2c3e50;
+        top: 40px;
+        right: -70%; /* Puedes cambiar a porcentaje */
+        text-align: center;
+        transition: .9s;
+        border-radius: 10%;
+        
+    }
+    
+    nav ul li {
+        
+       
+        display: block;
+        margin: 8%; /* Puedes cambiar a porcentaje */
+        line-height: 2vh; /* Puedes cambiar a porcentaje o em */
+    }
+    
+    nav ul li a {
+        text-align: center;
+        font-size: 1.8vw; /* Puedes cambiar a porcentaje o em */
+    }
+    .checkbtn {
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    
+    #check:checked~ul {
+        right: 0;
+    }
+    
+    
+    
 }

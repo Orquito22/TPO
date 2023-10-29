@@ -1,45 +1,93 @@
 #home.section {
     margin-top: 80px;
-    flex-direction: row;
     background-color: black;
+    display: flex;
+    align-items: center;
+    height: 70vh; 
+    padding: 0 20px; 
 }
-
-
-
-.caja-home {
-
-    border: 1px solid black;
-    background-color: white;
-    height: 50vh;
-    width: 45vw;
-    text-align: center;
-    margin: 5px;
-
-}
-
-.texto-home {
-    font-family: 'bungee', sans-serif;
-    font-size: clamp(1px, 1.66vw, 20px);
-    background-color: black;
-    color: white;
-    overflow: hidden;
-}
-
-
+ 
 
 #titulo1 {
     font-family: 'Bungee Shade', sans-serif;
-    font-size: 30px;
+    width: 50%;
+    font-size: 4.5vw;
+    text-align: center;
     background-color: black;
     color: white;
 
 }
-
-#logosag.caja-home {
-    background-image: url("../media/imagenes/logosag.svg");
+.texto-home {
+    font-family: 'bungee', sans-serif;
+    font-size: 1.9vw;
     background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 58%;
-
+    color: white;
+    overflow: hidden;
+    width: 50%;
+    text-align: center;
 }
+
+
+
+#logosag {
+    width: 45vw;
+    height: 70vh;
+    
+    border: black;
+    
+}
+
+@media (max-width: 1200px ){
+    #home.section {
+        margin-top: 80px;
+        height: 55vh; /* Media*/
+    }
+   
+    #titulo1 {
+        font-size: 3.7vw; /*Media*/
+    }
+    .texto-home {   
+        font-size: 1.7vw;
+     }
+    #logosag {
+        width: 45vw;
+        height: 55vh;   
+    }
+}
+
+@media (max-width: 900px ){
+    #home.section {
+        margin-top: 80px;
+        height: 45vh; /* Media*/
+    }
+   
+    #titulo1 {
+        font-size: 3.7vw; /*Media*/
+    }
+    .texto-home {   
+        font-size: 1.7vw;
+     }
+    #logosag {
+        width: 45vw;
+        height: 45vh;   
+    }
+}
+
+@media (max-width: 400px){
+    #home.section {
+        margin-top: 40px;
+        height: 45vh; /* Media*/
+    }
+   
+    #titulo1 {
+        font-size: 3.7vw; /*Media*/
+    }
+    .texto-home {   
+        font-size: 1.7vw;
+     }
+    #logosag {
+        width: 45vw;
+        height: 45vh;   
+    }
+}
+

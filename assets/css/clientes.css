@@ -5,29 +5,37 @@
     background-color:black;
     background-position: Right;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 65vh; /*@media*/
 }
 
-
+.slider-track{
+    height: 350px; /*@media*/
+}
 
 .slider {
-    position: relative;
+    /* position: relative;
+    top: 100px; */
     width: 96vw;
-    top: 100px;
     margin: auto;
     overflow: hidden;
+    
 }
 
 .slide {
     background-color:transparent;
-    width: 200px;
-    height: 200px;
+    width: 350px; /*@media*/
+    height: 350px;/*@media*/
     overflow: hidden;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out;
-    
-    
-    
+ 
+}
+.slider .slider-track {
+    display: flex;
+    animation: scroll 40s linear infinite;
+    width: calc(350px*34); /*@media*/
+    -webkit-animation: scroll 40s linear infinite;
+    overflow: visible;
 }
 
 #clientes a:hover{
@@ -40,19 +48,9 @@
     outline: none;
     transform: translateY(-10px) scale(0.9);
 }
-
-
-.slider .slider-track {
-    display: flex;
-    animation: scroll 40s linear infinite;
-    width: calc(200px*34);
-    -webkit-animation: scroll 40s linear infinite;
-    overflow: visible;
-}
-
 .slider .slide {
-    width: 200px;
-    height: 200px;
+    width: 350px; /*@media*/
+    height: 350px; /*@media*/
 }
 
 .slider .slide img {
@@ -72,4 +70,66 @@
         -webkit-transform: translateX(calc(-200px * 17));
     }
 
+}
+
+@media (max-width: 1200px ){
+    #clientes.section {
+        height: 60vh; /*@media*/
+    }
+    .slider-track{
+        height: 300px; /*@media*/
+    }
+    .slide {
+        width: 300px; /*@media*/
+        height: 300px;/*@media*/
+    }
+    .slider .slider-track {
+       width: calc(300px*34); /*@media*/
+    }
+    .slider .slide {
+        width: 300px; /*@media*/
+        height: 300px; /*@media*/
+    } 
+
+}
+@media (max-width: 900px ){
+    #clientes.section {
+        height: 40vh; /*@media*/
+    }
+    .slider-track{
+        height: 200px; /*@media*/
+    }
+    .slide {
+        width: 200px; /*@media*/
+        height: 200px;/*@media*/
+    }
+    .slider .slider-track {
+       width: calc(200px*34); /*@media*/
+    }
+    .slider .slide {
+        width: 200px; /*@media*/
+        height: 200px; /*@media*/
+    } 
+}
+@media (max-width: 400px ){
+    #clientes.section {
+        height: 22vh; /*@media*/
+    }
+    .slider-track{
+        height: 100px; /*@media*/
+    }
+    .slide {
+        width: 100px; /*@media*/
+        height: 100px;/*@media*/
+    }
+    .slider .slider-track {
+       width: calc(100px*34); /*@media*/
+    }
+    .slider .slide {
+        width: 100px; /*@media*/
+        height: 100px; /*@media*/
+    } 
+
+
+    
 }

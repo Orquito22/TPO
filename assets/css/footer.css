@@ -6,13 +6,8 @@ footer {
     justify-content: space-around;
 }
 
-/* Estilos para el enlace e icono */
-.instagram {
-    background-color: black;
-    font-size: 50px;
-    color: white;
-   
-}
+
+
 
 #icono-insta a.instagram {
     background-color: black;
@@ -26,8 +21,6 @@ footer {
     
 }
 
-
-
 #footer-text {
     color: white;
 }
@@ -36,4 +29,19 @@ footer {
     font-family: russo one;
     font-size: 30px;
     font-weight: 200px;
+}
+
+@media (max-width: 768px){
+   
+#icono-insta a.instagram {
+   font-size: 25px;
+}
+#nomb-footer {
+    font-family: russo one;
+    font-size: 15px;
+    font-weight: 200px;
+}
+footer{
+    font-size: 8px;
+}
 }
