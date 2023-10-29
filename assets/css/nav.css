@@ -48,6 +48,7 @@ a:hover {
 }
 
 .checkbtn {
+    display: none;
     font-size: 30px;
     color: white;
     float: right;
@@ -59,8 +60,15 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 1366px) {
-    
+@media (max-width: 1200px) {
+    .checkbtn {
+        
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+    }
 
     
     .checkbtn {
@@ -69,8 +77,8 @@ a:hover {
     
     ul {
         position: fixed;
-        width: 25%; /* Puedes cambiar a porcentaje */
-        height: 30%; /* Puedes cambiar a porcentaje */
+        width: 15vw; /* Puedes cambiar a porcentaje */
+        height: 42vh; /* Puedes cambiar a porcentaje */
         background: #2c3e50;
         top: 80px;
         right: -70%; /* Puedes cambiar a porcentaje */
@@ -81,17 +89,16 @@ a:hover {
     }
     
     nav ul li {
-        width: 15%;
-        height: 10%;
         
+       
         display: block;
         margin: 8%; /* Puedes cambiar a porcentaje */
-        line-height: 1.5em; /* Puedes cambiar a porcentaje o em */
+        line-height: 6vh; /* Puedes cambiar a porcentaje o em */
     }
     
     nav ul li a {
         text-align: center;
-        font-size: 1.5em; /* Puedes cambiar a porcentaje o em */
+        font-size: 1.8vw; /* Puedes cambiar a porcentaje o em */
     }
     
     a:hover,
@@ -108,40 +115,18 @@ a:hover {
     
 }
 
-@media (max-width: 768px) {
-    nav {
-        background-color: black;
-        height: 40px;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        z-index: 100;
+@media (max-width: 900px) {
     
-    }
-    label.logo {
-        position:relative;
-        right: 15%;
-        color: white;
-        font-family: russo one;
-        font-size: 25px;
-        line-height: 40px;
-        padding: 0 100px;
-        font-weight: bold;
-    }
+
     
     .checkbtn {
         display: block;
-        font-size: 25px;
-        color: white;
-        float: right;
-        line-height: 40px;
-        margin-right: 40px;
     }
     
     ul {
         position: fixed;
-        width: 15%; /* Puedes cambiar a porcentaje */
-        height: 14%; /* Puedes cambiar a porcentaje */
+        width: 15vw; /* Puedes cambiar a porcentaje */
+        height: 30vh; /* Puedes cambiar a porcentaje */
         background: #2c3e50;
         top: 80px;
         right: -70%; /* Puedes cambiar a porcentaje */
@@ -152,19 +137,80 @@ a:hover {
     }
     
     nav ul li {
-        width: 9%;
-        height: 12%;
         
+       
         display: block;
-        margin: 10%; /* Puedes cambiar a porcentaje */
-        line-height: 1.5em; /* Puedes cambiar a porcentaje o em */
+        margin: 8%; /* Puedes cambiar a porcentaje */
+        line-height: 4vh; /* Puedes cambiar a porcentaje o em */
     }
     
     nav ul li a {
         text-align: center;
-        font-size: 0.5em; /* Puedes cambiar a porcentaje o em */
+        font-size: 1.8vw; /* Puedes cambiar a porcentaje o em */
     }
     
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    
+    #check:checked~ul {
+        right: 0;
+    }
+    
+    
+    
+}
+
+@media (max-width: 400px) {
+    nav {
+        height: 40px;
+    }
+    label.logo {
+        
+        font-size: 25px;
+        line-height: 40px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+    
+    .checkbtn {
+        display: block;
+    }
+    
+    ul {
+        position: fixed;
+        width: 20vw; /* Puedes cambiar a porcentaje */
+        height: 18vh; /* Puedes cambiar a porcentaje */
+        background: #2c3e50;
+        top: 40px;
+        right: -70%; /* Puedes cambiar a porcentaje */
+        text-align: center;
+        transition: .9s;
+        border-radius: 10%;
+        
+    }
+    
+    nav ul li {
+        
+       
+        display: block;
+        margin: 8%; /* Puedes cambiar a porcentaje */
+        line-height: 2vh; /* Puedes cambiar a porcentaje o em */
+    }
+    
+    nav ul li a {
+        text-align: center;
+        font-size: 1.8vw; /* Puedes cambiar a porcentaje o em */
+    }
+    .checkbtn {
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 40px;
+        margin-right: 40px;
+    }
     a:hover,
     a.active {
         background: none;

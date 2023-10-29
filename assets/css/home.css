@@ -1,132 +1,93 @@
 #home.section {
     margin-top: 80px;
-    flex-direction: row;
     background-color: black;
+    display: flex;
+    align-items: center;
+    height: 70vh; 
+    padding: 0 20px; 
 }
-
-.caja-home {
-
-    border: 1px solid black;
-    background-color: black;
-    height: 55vh;
-    width: 45vw;
-    text-align: center;
-    margin: 5px;
-
-}
-
-.texto-home {
-    font-family: 'bungee', sans-serif;
-    font-size: 1.88vw;
-    background-color: black;
-    color: white;
-    overflow: hidden;
-}
+ 
 
 #titulo1 {
     font-family: 'Bungee Shade', sans-serif;
-    font-size: clamp(1px, 45vh, 60px);
+    width: 50%;
+    font-size: 4.5vw;
+    text-align: center;
     background-color: black;
     color: white;
 
 }
+.texto-home {
+    font-family: 'bungee', sans-serif;
+    font-size: 1.9vw;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    width: 50%;
+    text-align: center;
+}
+
+
 
 #logosag {
-    width: 70%;
-    height: auto;
-    border: none;
+    width: 45vw;
+    height: 70vh;
+    
+    border: black;
     
 }
 
-
-@media (max-width:1920px){
+@media (max-width: 1200px ){
     #home.section {
         margin-top: 80px;
-        flex-direction: row;
-        background-color: black;
+        height: 55vh; /* Media*/
     }
-    
-    .caja-home {
-    
-        border: 1px solid black;
-        background-color: black;
-        height: 55vh;
-        width: 45vw;
-        text-align: center;
-        margin: 5px;
-    
-    }
-    
-    .texto-home {
-        font-family: 'bungee', sans-serif;
-        font-size: 1.6vw;
-        background-color: black;
-        color: white;
-        overflow: hidden;
-    }
-    
-    #titulo1 {
-        font-family: 'Bungee Shade', sans-serif;
-        font-size: clamp(1px, 45vh, 60px);
-        background-color: black;
-        color: white;
-    
-    }
-    
-    #logosag {
-        width: 56%;
-        height: auto;
-        border: none;
-    }
-}
-
-
-@media (max-width: 1366px){
    
-    
-    .caja-home {
-        height: 25vh;
-        width: 45vw;
-    }
-    
-    .texto-home {
-        font-size: 1.8vw;
-    }
-    
     #titulo1 {
-        font-size: 4vw;
-           
+        font-size: 3.7vw; /*Media*/
     }
-    
+    .texto-home {   
+        font-size: 1.7vw;
+     }
     #logosag {
-        width: 75%;
+        width: 45vw;
+        height: 55vh;   
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 900px ){
+    #home.section {
+        margin-top: 80px;
+        height: 45vh; /* Media*/
+    }
+   
+    #titulo1 {
+        font-size: 3.7vw; /*Media*/
+    }
+    .texto-home {   
+        font-size: 1.7vw;
+     }
+    #logosag {
+        width: 45vw;
+        height: 45vh;   
+    }
+}
+
+@media (max-width: 400px){
     #home.section {
         margin-top: 40px;
-        flex-direction: row;
-        background-color: black;
+        height: 45vh; /* Media*/
     }
-    
-    .caja-home {
-        height: 15vh;
-        width: 45vw;
-    }
-    
-    .texto-home {
-        font-size: 1.6vw;
-    }
-    
+   
     #titulo1 {
-        font-size: 3.5vw;
-           
+        font-size: 3.7vw; /*Media*/
     }
-    
+    .texto-home {   
+        font-size: 1.7vw;
+     }
     #logosag {
-        width: 60%;
+        width: 45vw;
+        height: 45vh;   
     }
 }
-
 

@@ -1,5 +1,5 @@
 #nosotros.section {
-    height: 60vh;
+    height: 70vh;
     position: relative;
     background-image: url("../media/fondos/fondo1.svg");
     background-size: 75%;
@@ -13,6 +13,7 @@
     background-image: url("../media/fondos/fondo2.svg");
     background-color: #B600E0;
 }
+
 
 #cambiarFondo {
     display: inline-block;
@@ -49,50 +50,17 @@
 
 }
 
-@media (max-width: 1920px){
+@media (max-width: 1200px){
     #nosotros.section {
-        height: 70vh;
+        height: 58vh;
         background-size: 75%;
         
     }
-    
-    
     #cambiarFondo {
-               
-        width: 100px;
-        height: 100px;
-        line-height: 100px;
-        margin-left: 10px;
-        font-size: 25px;
-        font-weight: 1000;
-        position: absolute;
-        top: 100px;
-        right: 70px;
-    
-    }
-    
-    #magic {
-        position: absolute;
-        top: 100px;
-        right: 200px;
-        font-size: 100px;
-    }
-        
-}
-
-@media (max-width: 1366px){
-    #nosotros.section {
-        height: 30vh;
-        background-size: 75%;
-        
-    }
-    
-    
-    #cambiarFondo {
-               
+              
         width: 80px;
-        height: 70px;
-        line-height: 50px;
+        height: 80px;
+        line-height: 80px;
         margin-left: 10px;
         font-size: 20px;
         font-weight: 1000;
@@ -101,26 +69,49 @@
         right: 70px;
     
     }
-    
     #magic {
         position: absolute;
         top: 100px;
-        right: 170px;
+        right: 200px;
         font-size: 60px;
-    } 
+    }
+  
 }
-
-@media (max-width: 768px){
+@media (max-width: 900px){
     #nosotros.section {
-        height: 20vh;
+        height: 40vh;
         background-size: 75%;
         
     }
-    
-    
     #cambiarFondo {
-               
-        width: 45px;
+              
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 1000;
+        position: absolute;
+        top: 100px;
+        right: 70px;
+    
+    }
+    #magic {
+        position: absolute;
+        top: 110px;
+        right: 150px;
+        font-size: 40px;
+    }
+}
+@media (max-width: 400px){
+    #nosotros.section {
+        height: 45vh;
+        background-size: 75%;
+        
+    }
+    #cambiarFondo {
+              
+        width: 40px;
         height: 40px;
         line-height: 40px;
         margin-left: 10px;
@@ -128,14 +119,13 @@
         font-weight: 1000;
         position: absolute;
         top: 20px;
-        right: 40px;
+        right: 20px;
     
     }
-    
     #magic {
         position: absolute;
         top: 20px;
-        right: 90px;
-        font-size: 30px;
-    } 
+        right: 70px;
+        font-size: 25px;
+    }
 }

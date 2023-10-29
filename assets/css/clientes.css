@@ -5,7 +5,7 @@
     background-color:black;
     background-position: Right;
     background-repeat: no-repeat;
-    height: 45vh; /*@media*/
+    height: 65vh; /*@media*/
 }
 
 .slider-track{
@@ -72,7 +72,7 @@
 
 }
 
-@media (max-width: 1920px ){
+@media (max-width: 1200px ){
     #clientes.section {
         height: 60vh; /*@media*/
     }
@@ -92,9 +92,9 @@
     } 
 
 }
-@media (max-width: 1366px ){
+@media (max-width: 900px ){
     #clientes.section {
-        height: 28vh; /*@media*/
+        height: 40vh; /*@media*/
     }
     .slider-track{
         height: 200px; /*@media*/
@@ -111,7 +111,7 @@
         height: 200px; /*@media*/
     } 
 }
-@media (max-width: 768px ){
+@media (max-width: 400px ){
     #clientes.section {
         height: 22vh; /*@media*/
     }

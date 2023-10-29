@@ -4,7 +4,7 @@ form {
     font-weight: 500;
     color: white;
     background-blend-mode: darken;
-    height: 20vh; /*@media*/
+    height: 30vh; /*@media*/
     text-align: center;
     align-items: center;
 
@@ -51,16 +51,16 @@ form button:hover {
     transition: .5s;
 }
 
-@media (max-width: 1920px){
+@media (max-width: 1200px){
     form {
       
         height: 30vh; /*@media*/
         
     } 
 }
-@media (max-width: 1366px){
+@media (max-width: 900px){
     form {
-       height: 14vh; /*@media*/
+       height: 19vh; /*@media*/
     } 
     div label{
         font-size: 12px; /*@media*/
@@ -76,7 +76,7 @@ form button:hover {
         margin-bottom: 10px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 400px){
     form {
         height: 15vh; /*@media*/
      }
