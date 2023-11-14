@@ -1,0 +1,18 @@
+<div class="form">
+    <form action="">
+        <label for="name">Nombre:</label>
+        <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre" required>
+
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Ingrese su correo" required>
+
+        <label for="phone">Enter your phone number:</label>
+        <input id="telNo" name="telNo" type="tel" required  placeholder="Ingrese su telefono"/>
+        <!-- <input type="tel" id="telefono" name="phone"  placeholder="Ingrese su telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required /> -->
+
+        <label for="message">Mensaje:</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar" onclick="sendMail()">
+    </form>
+</div>
